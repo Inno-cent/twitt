@@ -26,7 +26,7 @@ COLOURS_NAMED = dict(list(zip(
 )))
 COLOURS_MIDS = [
     colour for name, colour in list(COLOURS_NAMED.items())
-    if name not in ('black', 'white')
+    # if name not in ('black', 'white')
 ]
 
 class AnsiColourException(Exception):
